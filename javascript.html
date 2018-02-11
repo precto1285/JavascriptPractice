@@ -23,8 +23,9 @@
             var Contestant = [statPerson1, statPerson2, statPerson3, statPerson4];
             var Prize = ["car", "house", "cash", "vacation"];
 
-            if ( Contestant[Math.floor(Math.random() * age.length)] === statPerson2) {
-                 console.log("congratulations!! you won a " + Prize[Math.floor(Math.random() * Prize.length)] + "!");
+            if ( Contestant[Math.floor(Math.random() * Contestant.length)] === statPerson2  ) {
+                 
+                 alert("congratulations!! You won a " + Prize[Math.floor(Math.random() * Prize.length)] + "!");
             }
             else {
                  console.log("sorry, better luck next time.");
